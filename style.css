@@ -71,6 +71,7 @@ body {
     font-size: 1.5rem;
     color: var(--white);
     margin-top: var(--space-300);
+    font-weight: 700;
 }
 
 .country {
