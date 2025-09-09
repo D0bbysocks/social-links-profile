@@ -18,7 +18,7 @@
 @font-face {
   font-family: "Inter";
   src: url("./assets/fonts/Inter-VariableFont_slnt\,wght.ttf") format("truetype-variations");
-  font-weight: 100 900; /* Variabler Bereich */
+  font-weight: 100 900;
   font-style: normal;
 }
 
@@ -93,6 +93,7 @@ body {
     gap: var(--space-200);
     width: 100%;
     margin-top: var(--space-300);
+    font-size: 1.875rem;
 }
 
 .links button {
@@ -112,12 +113,22 @@ body {
     
 }
 
+a,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+  color: inherit;
+  text-decoration: none;
+}
+
 footer {
     position: fixed;
     bottom: 0;
     padding: var(--space-300);
     color: var(--white);
 }
+
 
 /* Media Queries */
 
